@@ -6,4 +6,12 @@ metadata:
   name: ns-test4
   project: giri
 spec:
+  limitRange:
+    container: {}
+    pod: {}
+  namespaceMeshPolicyParams: {}
+  placement:
+    labels:
+    - key: rafay.dev/clusterName
+      value: giri-feb20
   resourceQuotas: {}

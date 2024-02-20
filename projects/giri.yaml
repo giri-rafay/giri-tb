@@ -8,6 +8,9 @@ spec:
   driftWebhook:
     enabled: true
   syncExcludedNamespaces:
+  - n2
+  - n1
+  - m4
   - m3
   - m2
   - m1
